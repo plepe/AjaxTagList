@@ -1,0 +1,44 @@
+span.tag {
+  border: 1px solid #80b0ff;
+  background: #e0e0e0;
+  padding: 2px;
+  font-family: verdana, sans-serif;
+  font-size: 10pt;
+  white-space: nowrap;
+}
+span.tag a {
+  text-decoration: none;
+}
+span.tag a:after {
+}
+span.add_tag a {
+  text-decoration: none;
+}
+span.tag input {
+  width: 100px;
+  border: none;
+  background: #e0e0e0;
+}
+span.tag form {
+  display: inline;
+}
+span.tag span.count {
+  color: #80b0ff;
+}
+span.tag span.count:after {
+  content: ")";
+}
+span.tag span.count:before {
+  content: "(";
+}
+
+form.edit_tags {
+  display: inline;
+}
+form.edit_tags input.edit_tags {
+  width: 500px;
+}
+div.tag_list {
+  line-height: 24px;
+  margin-bottom: 2px;
+}
